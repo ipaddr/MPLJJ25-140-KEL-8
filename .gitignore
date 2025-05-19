@@ -1,0 +1,9 @@
+# Flutter files to ignore
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.idea/
+.vscode/
