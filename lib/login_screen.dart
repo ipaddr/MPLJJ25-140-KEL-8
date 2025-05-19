@@ -78,7 +78,7 @@ class LoginScreen extends StatelessWidget {
                 padding: const EdgeInsets.symmetric(vertical: 16),
               ),
               onPressed: () {
-                Navigator.pushNamed(context, '/verification');
+                Navigator.pushNamed(context, '/home');
               },
               child: const Center(
                 child: Text('Masuk', style: TextStyle(fontSize: 16)),

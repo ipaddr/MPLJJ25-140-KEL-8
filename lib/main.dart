@@ -7,6 +7,7 @@ import 'facebook_verification_screen.dart';
 import 'recover_account_screen.dart';
 import 'verify_code_screen.dart';
 import 'password_account_screen.dart';
+import 'home_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -32,6 +33,7 @@ class MyApp extends StatelessWidget {
         '/recover-account': (context) => const RecoverAccountScreen(),
         '/verify-code': (context) => const VerifyCodeScreen(),
         '/reset-password': (context) => const ResetPasswordScreen(),
+        '/home': (context) => const HomeScreen(),
       },
     );
   }
